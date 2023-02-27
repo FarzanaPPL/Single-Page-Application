@@ -1,0 +1,52 @@
+.aboutContainer {
+  background-color: blanchedalmond;
+  padding-top: 105px;
+  height: 42vh;
+  padding-right: 20px;
+  display: flex;
+}
+.abountContent{
+  display: flex;
+  flex-direction: column;
+}
+.aboutImage{
+  height: 100%;
+  width:50%;
+  margin-right:30px
+}
+.aboutHeading {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+.aboutDescription {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+@media (max-width:576px){
+  .aboutContainer {
+    background-color: blanchedalmond;
+    height: 100%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .abountContent{
+    padding: 20px;
+  }
+  .aboutImage{
+    height: 50vh;
+    width:100vw;
+    margin-right:30px;
+    
+  }
+  .aboutHeading {
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .aboutDescription {
+    font-size: 10px;
+  }
+}

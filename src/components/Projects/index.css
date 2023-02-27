@@ -1,0 +1,106 @@
+.hrLine {
+  border: 1px solid grey;
+  width: 92%;
+  margin-top: 0px;
+}
+.projects {
+  margin-bottom: 0px;
+  padding-left: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #00008b;
+  font-weight: 600;
+}
+.projectDetailsContainer {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 16px;
+}
+.technologiesContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.projectName {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.projectDescription {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.features {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.technologies {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin-top: 0px;
+}
+.technologiesHeading {
+  font-weight: 600;
+}
+.projectLink {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color: blue;
+}
+.link {
+  margin-top: 0px;
+}
+@media (max-width: 576px) {
+  .projectDetailsContainer {
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+  }
+  .projects {
+    margin-bottom: 0px;
+    padding-left: 10px;
+    font-size: 16px;
+  }
+  .technologiesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }.projectName {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  .projectDescription {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .features {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .technologies {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin-top: 0px;
+  }
+  .technologiesHeading {
+    font-weight: 600;
+  }
+  .projectLink {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    color: blue;
+  }
+  .link {
+    margin-top: 0px;
+  }
+}

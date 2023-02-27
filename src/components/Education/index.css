@@ -1,0 +1,60 @@
+.hrLine {
+  border: 1px solid grey;
+  width: 92%;
+  margin-top: 0px;
+}
+.education {
+  margin-bottom: 0px;
+  padding-left: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #00008b;
+  font-weight: 600;
+}
+.educationDetailsContainer {
+  padding-left: 50px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.institute {
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.branch {
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.year {
+  font-size: 18px;
+  margin-top: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+@media (max-width: 576px) {
+  .education {
+    margin-bottom: 0px;
+    padding-left: 10px;
+    font-size: 16px;
+  }
+  .educationDetailsContainer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .institute {
+    font-size: 10px;
+  }
+  .branch {
+    font-size: 10px;
+  }
+  
+  .year {
+    font-size: 10px;
+    padding-left: 10px;
+  }
+}

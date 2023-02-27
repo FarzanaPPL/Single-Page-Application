@@ -1,0 +1,74 @@
+.resumeContainer {
+  background-color: grey;
+  padding-left: 150px;
+  padding-right: 180px;
+  padding-top: 105px;
+  display: flex;
+}
+.resumeContentContainer {
+  background-color: white;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  background-color: aqua;
+  margin-top: 0px;
+}
+
+.sideNav {
+  height: 100%;
+  width: 161px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin-top: 106px;
+  padding-top: 60px;
+  background-color: antiquewhite;
+  font-family: 'Times New Roman', Times, serif;
+}
+.a {
+  padding-top: 6px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 30px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #00008b;
+  display: block;
+}
+.contentsContainer {
+  display: flex;
+}
+.contentsLogo {
+  padding-top: 10px;
+  padding-right: 7px;
+}
+
+@media (max-width: 576px) {
+  .resumeContainer {
+    padding-top: 28px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+  }
+  .resumeContentContainer {
+    background-color: aqua;
+    padding-bottom: 50px;
+    padding-left: 15px;
+  }
+  .desktopNav {
+    display: none;
+  }
+  .sideNav {
+    height: 100%;
+    width: 60px;
+    padding-top: 40px;
+    margin-top: 28.5px;
+  }
+  .a {
+    padding: 6px;
+    text-decoration: none;
+    font-size: 10px;
+    color: #00008b;
+    display: block;
+  }
+}

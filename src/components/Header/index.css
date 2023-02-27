@@ -1,0 +1,86 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.profile{
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.nameContainer{
+    padding-left: 30px;
+}
+.firstname{
+    color:#00008B;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin-bottom: 0px;
+    
+}
+.lastName{
+    color:#00008B;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin-top: 0px;
+    
+}
+.contactUsContainer{
+    padding-top: 40px;
+}
+.addressIconContainer{
+    display: flex;
+    align-items: center;
+}
+.address{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.addressIcon{
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.linkdinUrl{
+    color:black;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+@media (max-width:576px){
+    .linkdinUrl{
+        font-size: 08px;
+    }
+    .nameContainer{
+        padding-left: 0px;
+        padding-right:30px;
+    }
+    .firstname{
+        font-size: 14px;
+        
+    }
+    .lastName{
+        font-size: 14px;
+    }
+    .profile{
+        height: 50px;
+        padding-top: 12px;
+        padding-left: 7px;
+    }
+    .address{
+        font-size: 08px;
+        margin-bottom: 0px;
+    }
+    .addressIcon{
+        margin-top: 3px;
+        padding-left: 2px;
+        font-size: 12px;
+        padding-bottom: 0px;
+    }
+    .contactUsContainer{
+        padding-top: 20px;
+    }
+}
+
