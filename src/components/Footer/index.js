@@ -3,7 +3,7 @@ import './index.css'
 
 const Footer = () => (
   <div className="copyright footerContainer">
-    <BiCopyright />
+    <BiCopyright className="icon" />
     <p className="copyrightName">Farzana@PeopleLink</p>
   </div>
 )

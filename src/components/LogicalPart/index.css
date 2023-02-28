@@ -24,7 +24,7 @@
     justify-content: center;
 }
 .calculaterContainer{
-    margin-right: 70px;
+    margin-right: 60px;
 }
 .primeButton{
     background-color:chocolate;
@@ -98,7 +98,7 @@
         height:20px;
         width:60px;
         font-size: 08px;
-        margin-left:70px;
+        margin-left:60px;
     }
     .factButton{
         height:20px;

@@ -8,15 +8,15 @@ const Contact = () => (
     <h1 className="contactHeading">Contact Us</h1>
     <div className="contactOptionsContainer">
       <div className="optionContainer">
-        <AiFillPhone className="icon" />
+        <AiFillPhone className="contactIcon" />
         <h1 className="contactOptionHeading">BY PHONE</h1>
       </div>
       <div className="optionContainer">
-        <MdEmail className="icon" />
+        <MdEmail className="contactIcon" />
         <h1 className="contactOptionHeading">BY EMAIL</h1>
       </div>
       <div className="optionContainer">
-        <BsFillChatDotsFill className="icon" />
+        <BsFillChatDotsFill className="contactIcon" />
         <h1 className="contactOptionHeading">LIVE CHAT</h1>
       </div>
     </div>

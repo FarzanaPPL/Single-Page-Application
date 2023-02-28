@@ -2,7 +2,7 @@
   background-color: grey;
   padding-left: 150px;
   padding-right: 180px;
-  padding-top: 105px;
+  padding-top: 52px;
   display: flex;
 }
 .resumeContentContainer {
@@ -19,7 +19,7 @@
   position: fixed;
   left: 0;
   top: 0;
-  margin-top: 106px;
+  margin-top: 52px;
   padding-top: 60px;
   background-color: antiquewhite;
   font-family: 'Times New Roman', Times, serif;
@@ -41,10 +41,13 @@
   padding-top: 10px;
   padding-right: 7px;
 }
+.mobileNav{
+  display: none;
+}
 
 @media (max-width: 576px) {
   .resumeContainer {
-    padding-top: 28px;
+    padding-top: 20px;
     padding-bottom: 30px;
     padding-left: 50px;
     padding-right: 50px;
@@ -58,11 +61,14 @@
   .desktopNav {
     display: none;
   }
+  .mobileNav{
+    display: block;
+  }
   .sideNav {
     height: 100%;
     width: 60px;
     padding-top: 40px;
-    margin-top: 28.5px;
+    margin-top: 23px;
   }
   .a {
     padding: 6px;

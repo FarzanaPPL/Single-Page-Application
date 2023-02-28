@@ -1,7 +1,7 @@
 .aboutContainer {
   background-color: blanchedalmond;
-  padding-top: 105px;
-  height: 42vh;
+  padding-top: 50px;
+  height: 100vh;
   padding-right: 20px;
   display: flex;
 }
@@ -28,7 +28,7 @@
     height: 100%;
     padding-right: 20px;
     padding-bottom: 20px;
-    padding-top: 30px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
   }

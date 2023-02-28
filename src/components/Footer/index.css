@@ -10,13 +10,8 @@
   margin-top: 0px;
   margin-bottom: 0px;
 }
-@media (max-width) {
-  .copyrightName {
-    font-size: 10px;
-  }
-}
 .copyright {
-  padding: 8px 10px;
+  padding: 10px;
   color: black;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
@@ -30,5 +25,11 @@
     padding: 5px;
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+  .copyrightName {
+    font-size: 10px;
+  }
+  .icon{
+    font-size: 10px;
   }
 }
